@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+http://wiki.macrabbit.com/index/ActionXML/
+https://github.com/onecrayon/ShellActions-sugar
+https://github.com/onecrayon/Scriptomatic-sugar
+-->
+<action-recipes>
+
+	<action id="com.projectorangebox.myers.colorpicker" category="">
+		<class>OCShellAction</class>
+		<title>Pick Color</title>
+		<key-equivalent></key-equivalent>
+		<setup>
+			<script>pick_color.php</script>
+			<input>selection</input>
+		</setup>
+		<key-equivalent>control x</key-equivalent>
+	</action>
+
+</action-recipes>
